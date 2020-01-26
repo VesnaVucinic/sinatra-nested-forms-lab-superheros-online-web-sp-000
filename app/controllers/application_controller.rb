@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class App < Sinatra::Base
 
-    set :views, Proc.new { File.join(root, "../views/") }
+  set :views, Proc.new { File.join(root, "../views/") }
 
     get '/' do
       erb :index
@@ -16,4 +16,10 @@ class App < Sinatra::Base
       end
       erb :team
     end
+<<<<<<< HEAD
 end
+=======
+  
+
+end
+>>>>>>> 536d5561078d67d20918a0fd68a937fa8d82e88f
